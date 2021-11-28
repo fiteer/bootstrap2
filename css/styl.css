@@ -1,0 +1,34 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    direction: ltr;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+}
+.container div{
+    color: #FFF;
+    padding: 10px;
+    max-height: 100px;
+    width: 150px;
+}
+.container .one{
+    background-color: #080;
+}
+.container .tow{
+    background-color: rgb(26, 138, 182);
+}
+.container .three{
+    background-color: rgb(136, 128, 17);
+}
+.container .four{
+    background-color: rgb(55, 19, 112);
+}

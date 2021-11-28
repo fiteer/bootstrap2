@@ -1,0 +1,162 @@
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .container svg {
+    width: 85%;
+    height: 75%;
+  }
+  
+  #inspired {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  
+  #inspired a {
+    text-decoration: none;
+    color: red;
+  }
+.coll1{
+    fill: white;
+}
+.poth{
+    fill: black;
+ }
+.cls-1 {
+    fill: #d29b25;;
+  }
+  
+  .cls-2 {
+    fill: #1a1a1a;
+  }
+  
+  .cls-3 {
+    fill: #333;
+  }
+  
+  .cls-4 {
+    fill: #fff;
+  }
+  
+  .cls-5 {
+    fill: #b3b3b3;
+  }
+  
+  .cls-6 {
+    fill: #4d4d4d;
+  }
+  
+  .cls-7 {
+    fill: #666;
+  }
+  
+  .cls-8 {
+    fill: gray;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+  }
+  
+  .cls-9 {
+    fill: #fcee21;
+  }
+  
+  .cls-10 {
+    fill: black;
+  }
+  
+  .cls-11 {
+    fill: black;
+  }
+  
+  .cls-12 {
+    fill: url(#linear-gradient-2);
+  }
+  
+
+  .fire {
+    -webkit-transform-origin: 0;
+            transform-origin: 0;
+    -webkit-animation: fire 0.1s ease-in-out infinite;
+            animation: fire 0.1s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes fire {
+    000% {
+      opacity: 0;
+    }
+    050% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fire {
+    000% {
+      opacity: 0;
+    }
+    050% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .bullet {
+    -webkit-transform-origin: 0;
+            transform-origin: 0;
+    -webkit-animation: bullet 0.1s ease-in-out infinite;
+            animation: bullet 0.1s ease-in-out infinite;
+    z-index: 11;
+    fill: #a06d0e;
+  }
+  
+  @-webkit-keyframes bullet {
+    0% {
+      -webkit-transform: translateX(8%);
+              transform: translateX(8%);
+    }
+    100% {
+      -webkit-transform: translateX(-90%);
+              transform: translateX(-90%);
+    }
+  }
+  
+  @keyframes bullet {
+    0% {
+      -webkit-transform: translateX(8%);
+              transform: translateX(8%);
+    }
+    100% {
+      -webkit-transform: translateX(-90%);
+              transform: translateX(-90%);
+    }
+  }
+  
+
+  /*# sourceMappingURL=style.css.map */
